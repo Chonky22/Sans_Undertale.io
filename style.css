@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #181818;
+}
+
+.navBar {
+  background-color: black;
+  height: 6rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navBar .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navBar .logo img {
+  height: 4rem;
+}
+
+.navBar .logo h1 {
+  padding-top: 1rem;
+  color: white;
+  font-family: sans-serif;
+}
+
+.navBar .navLinks {
+  padding-right: 2rem;
+  width: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navBar .navLinks .linkContainer {
+  padding-top: 1.3rem;
+  width: 18rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navBar .navLinks .linkContainer a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+}
+
+.mainContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainContent h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.mainContent .answers {
+  width: 300px;
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainContent .answers a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainContent .answers a:hover {
+  color: #c9c9c9;
+}
+
+.goodTime {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.goodTime h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.goodTime h2 {
+  color: #dadada;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.badTime {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.badTime h1 {
+  position: absolute;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 100px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.badTime img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
